@@ -1,25 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: #00FF00; /* Hacker green */
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cat-eyes {
-    width: 300px; /* Adjust the size as needed */
-    display: block;
-    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
-h1 {
-    margin-top: 20px;
+.title {
+    margin-top: 20px; /* Adjust the margin as needed */
+    font-family: 'Roboto', sans-serif; /* Change to an attractive font */
+    font-size: 2.5em; /* Adjust the size as needed */
+    color: #333; /* Adjust the color as needed */
 }
+
+/* You can include a link to Google Fonts to use a specific font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
